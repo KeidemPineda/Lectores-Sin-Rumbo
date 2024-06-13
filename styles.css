@@ -33,7 +33,7 @@ header {
 nav {
   background-color: burlywood;
   overflow: hidden;
-  border-radius: 8%;
+  padding: 20px;
 }
 
 nav ul {
