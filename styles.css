@@ -143,5 +143,17 @@ span {
 .img-rina {
   width: 225px;
 }
-.uso {
+
+.video {
+  display: flex; /* Usar flexbox para centrar */
+  justify-content: center; /* Centrar horizontalmente */
+  flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+  margin-top: 20px; /* Margen superior para el contenedor de videos */
+}
+
+.video video {
+  margin: 10px; /* Espaciado alrededor de cada video */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra alrededor del video */
+  max-width: 100%; /* Asegurarse de que los videos no se desborden en dispositivos pequeños */
 }
